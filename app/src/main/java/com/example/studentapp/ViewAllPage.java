@@ -24,6 +24,7 @@ public class ViewAllPage extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent i=new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(i);
             }
