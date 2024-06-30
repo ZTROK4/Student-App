@@ -1,0 +1,147 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="40px"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ddd"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Firstname"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your firstname"
+        android:id="@+id/fname"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Lastname"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your lastname"
+        android:id="@+id/lname"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name of the college"
+        android:id="@+id/college"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/baseline_menu_book_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOB"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your date of birth"
+        android:drawablePadding="15dp"
+        android:inputType="date"
+        android:drawableLeft="@drawable/baseline_calendar_month_24"
+        android:id="@+id/dob"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Course"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your course"
+        android:id="@+id/course"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/baseline_library_books_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Mobile"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone number"
+        android:id="@+id/phno"
+        android:drawableLeft="@drawable/baseline_local_phone_24"
+        android:drawablePadding="15dp"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:id="@+id/email"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Address"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your address"
+        android:id="@+id/address"
+        android:drawableLeft="@drawable/baseline_house_24"
+        android:drawablePadding="15dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        android:background="#1e272e"
+        android:id="@+id/addbtn"
+        android:layout_margin="20px"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:textColor="#FFFFFF"
+        android:background="#1e272e"
+        android:id="@+id/backtomenubtn"
+        android:layout_margin="20px"
+        />
+
+</LinearLayout>
